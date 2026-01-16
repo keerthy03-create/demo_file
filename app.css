@@ -1,0 +1,39 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da') center/cover no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.hero h1 span {
+  color: #ffc107;
+}
+
+.destination-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.destination-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destination-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.price {
+  font-weight: bold;
+  color: #198754;
+}
+
+footer {
+  background: #212529;
+  color: #ccc;
+}
